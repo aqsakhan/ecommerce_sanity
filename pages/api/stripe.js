@@ -11,8 +11,8 @@ export default async function handler(req, res) {
                 payment_method_types: ['card'],
                 billing_address_collection: 'auto',
                 shipping_options: [
-                    { shipping_rate: 'shr_1KxkstKmb7Ssh3iJhcEIpOVQ' },
-                    { shipping_rate: 'shr_1KxksLKmb7Ssh3iJVgtjhIEu' },
+                    // { shipping_rate: 'shr_1KxkstKmb7Ssh3iJhcEIpOVQ' },
+                    // { shipping_rate: 'shr_1KxksLKmb7Ssh3iJVgtjhIEu' },
                     { shipping_rate: 'shr_1Kxl4wKmb7Ssh3iJkI1zWGfD' },
                     { shipping_rate: 'shr_1Kxl6SKmb7Ssh3iJkucQgmHW' },
                 ],
